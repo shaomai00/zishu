@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/weimengxi/CLionProjects/zishu/AnotherCrisis2_12.cpp
+cstdio
+-
+vector
+-
+algorithm
+-
+iostream
+-
+
