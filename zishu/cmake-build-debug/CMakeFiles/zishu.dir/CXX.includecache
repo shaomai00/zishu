@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/weimengxi/CLionProjects/zishu/AnotherCrisis2_12.cpp
+/home/wmx/suanfa/zishu/zishu/zishu/HaliBula9_13.cpp
 cstdio
 -
 vector
 -
-algorithm
+string
+-
+map
 -
 iostream
 -

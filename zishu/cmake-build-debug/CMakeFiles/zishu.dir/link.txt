@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/zishu.dir/AnotherCrisis2_12.cpp.o  -o zishu 
+/usr/bin/c++   -g   CMakeFiles/zishu.dir/HaliBula9_13.cpp.o CMakeFiles/zishu.dir/PerfectService9_14.cpp.o  -o zishu 

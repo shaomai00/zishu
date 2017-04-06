@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weimengxi/CLionProjects/zishu
+CMAKE_SOURCE_DIR = /home/wmx/suanfa/zishu/zishu/zishu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weimengxi/CLionProjects/zishu/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/weimengxi/CLionProjects/zishu/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles /Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,59 @@ zishu/fast:
 	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/build
 .PHONY : zishu/fast
 
-AnotherCrisis2_12.o: AnotherCrisis2_12.cpp.o
+HaliBula9_13.o: HaliBula9_13.cpp.o
 
-.PHONY : AnotherCrisis2_12.o
+.PHONY : HaliBula9_13.o
 
 # target to build an object file
-AnotherCrisis2_12.cpp.o:
-	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/AnotherCrisis2_12.cpp.o
-.PHONY : AnotherCrisis2_12.cpp.o
+HaliBula9_13.cpp.o:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/HaliBula9_13.cpp.o
+.PHONY : HaliBula9_13.cpp.o
 
-AnotherCrisis2_12.i: AnotherCrisis2_12.cpp.i
+HaliBula9_13.i: HaliBula9_13.cpp.i
 
-.PHONY : AnotherCrisis2_12.i
+.PHONY : HaliBula9_13.i
 
 # target to preprocess a source file
-AnotherCrisis2_12.cpp.i:
-	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/AnotherCrisis2_12.cpp.i
-.PHONY : AnotherCrisis2_12.cpp.i
+HaliBula9_13.cpp.i:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/HaliBula9_13.cpp.i
+.PHONY : HaliBula9_13.cpp.i
 
-AnotherCrisis2_12.s: AnotherCrisis2_12.cpp.s
+HaliBula9_13.s: HaliBula9_13.cpp.s
 
-.PHONY : AnotherCrisis2_12.s
+.PHONY : HaliBula9_13.s
 
 # target to generate assembly for a file
-AnotherCrisis2_12.cpp.s:
-	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/AnotherCrisis2_12.cpp.s
-.PHONY : AnotherCrisis2_12.cpp.s
+HaliBula9_13.cpp.s:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/HaliBula9_13.cpp.s
+.PHONY : HaliBula9_13.cpp.s
+
+PerfectService9_14.o: PerfectService9_14.cpp.o
+
+.PHONY : PerfectService9_14.o
+
+# target to build an object file
+PerfectService9_14.cpp.o:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/PerfectService9_14.cpp.o
+.PHONY : PerfectService9_14.cpp.o
+
+PerfectService9_14.i: PerfectService9_14.cpp.i
+
+.PHONY : PerfectService9_14.i
+
+# target to preprocess a source file
+PerfectService9_14.cpp.i:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/PerfectService9_14.cpp.i
+.PHONY : PerfectService9_14.cpp.i
+
+PerfectService9_14.s: PerfectService9_14.cpp.s
+
+.PHONY : PerfectService9_14.s
+
+# target to generate assembly for a file
+PerfectService9_14.cpp.s:
+	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/PerfectService9_14.cpp.s
+.PHONY : PerfectService9_14.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... zishu"
-	@echo "... AnotherCrisis2_12.o"
-	@echo "... AnotherCrisis2_12.i"
-	@echo "... AnotherCrisis2_12.s"
+	@echo "... HaliBula9_13.o"
+	@echo "... HaliBula9_13.i"
+	@echo "... HaliBula9_13.s"
+	@echo "... PerfectService9_14.o"
+	@echo "... PerfectService9_14.i"
+	@echo "... PerfectService9_14.s"
 .PHONY : help
 
 

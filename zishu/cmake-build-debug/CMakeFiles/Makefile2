@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/wmx/Downloads/clion-2017.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/weimengxi/CLionProjects/zishu
+CMAKE_SOURCE_DIR = /home/wmx/suanfa/zishu/zishu/zishu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/weimengxi/CLionProjects/zishu/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/zishu.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/weimengxi/CLionProjects/zishu/cmake-build-debug
 CMakeFiles/zishu.dir/all:
 	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/depend
 	$(MAKE) -f CMakeFiles/zishu.dir/build.make CMakeFiles/zishu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target zishu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target zishu"
 .PHONY : CMakeFiles/zishu.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/zishu.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zishu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zishu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/zishu.dir/rule
 
 # Convenience name for target.

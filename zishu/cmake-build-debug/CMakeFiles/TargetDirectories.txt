@@ -1,3 +1,3 @@
-/Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/weimengxi/CLionProjects/zishu/cmake-build-debug/CMakeFiles/zishu.dir
+/home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wmx/suanfa/zishu/zishu/zishu/cmake-build-debug/CMakeFiles/zishu.dir

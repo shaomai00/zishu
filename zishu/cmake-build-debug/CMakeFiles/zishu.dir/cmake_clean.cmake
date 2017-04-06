@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zishu.dir/AnotherCrisis2_12.cpp.o"
+  "CMakeFiles/zishu.dir/HaliBula9_13.cpp.o"
+  "CMakeFiles/zishu.dir/PerfectService9_14.cpp.o"
   "zishu.pdb"
   "zishu"
 )
